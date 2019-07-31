@@ -151,8 +151,8 @@ iframe {
 	border: none;
 	padding: 4% 0% 4.7% 4%;
 	width: 60%;
-	background: red;
 	margin-right: 2%;
+	color: #5A644B;
 }
 
 .enter-email::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -179,7 +179,7 @@ iframe {
     border-radius: 40px;
     margin: auto; 
     color: #fff;
-    padding: 6px 30px 10px 30px;
+    padding: 1.5% 5% 2.3% 5%;
     transition: ease-in-out .2s;
 
 }
@@ -269,48 +269,54 @@ a:hover {
 
 /* responsive styles */
 @media only screen and (max-width: 800px) {
-  body {
-}
+	  body {
+	}
 
-h2 {
-	font-size: 20px;
-    line-height: 130%;
-}
+	h2 {
+		font-size: 22px;
+	    line-height: 140%;
+	}
 
 
-p, li, ol, ul, h1 {
-	font-size: 17px;
-    line-height: 150%;
-    margin-bottom: 3%;
-}
+	p, li, ol, ul, h1 {
+		font-size: 18px;
+	    line-height: 140%;
+	    margin-bottom: 3%;
+	}
 
-.text-section {
-	display: block;
-	padding: 3%;
-	border: none;
-	margin-bottom: 5%;
-}
+	.enter-email, .submit-button {
+		font-family: sohne-book, helvetica, arial, sans-serif;
+		font-size: 18px;
+	    line-height: 140%;
+	}
 
-.logo {
-	margin: 6% auto 0 auto;
-	width: 75px;
-}
+	.text-section {
+		display: block;
+		padding: 3%;
+		border: none;
+		margin-bottom: 4%;
+	}
 
-.name {
-	margin-bottom: 4%;
-}
+	.logo {
+		margin: 6% auto 0 auto;
+		width: 75px;
+	}
 
-.price-box {
-	font-size: 17px;
-}
+	.name {
+		margin-bottom: 4%;
+	}
 
-.price-box h3 span {
-	font-size: 30px;
-}
+	.price-box {
+		font-size: 17px;
+	}
 
-.top-photos-container {
-	display: block;
-}
+	.price-box h3 span {
+		font-size: 30px;
+	}
+
+	.top-photos-container {
+		display: block;
+	}
 
 }
 
