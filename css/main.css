@@ -1,7 +1,7 @@
 body {
 	background: #F2EEE9;
 	margin: 0;
-	color: #565B4E;
+	color: #5A644B;
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -91,7 +91,6 @@ img {
 	text-align: right;
 }
 
-
 .logo {
 	margin: 1.5% auto 0 auto;
 	width: 98px;
@@ -100,7 +99,6 @@ img {
 .name {
 	margin: 0 auto 1.5% auto;
 }
-
 
 .video {
 	max-width: 600px;
@@ -111,13 +109,13 @@ iframe {
 }
 
 .price-box {
-	border: 2px solid #565B4E;
+	border: 3px solid #565B4E;
 	border-radius: 4px;
 	display: inline-block;
 	padding: 2% 3%;
 	font-family: sohne-book, helvetica, arial, sans-serif;
 	font-size: 23px;
-	margin: 1.6% 0 1% 0;
+	margin: 1.6% 0;
 }
 
 .price-box h3 {
@@ -129,6 +127,75 @@ iframe {
 	font-size: 45px; 
 	font-weight: normal;
 }
+
+.green-border {
+	border: 3px solid #565B4E;
+	border-radius: 4px;
+}
+
+.email-capture {
+	border: 2px solid #FF9494;
+	border-radius: 4px;
+	background: white;
+	display: flex;
+	padding-right: 2%;
+}
+
+.enter-email, .submit-button {
+	font-family: sohne-book, helvetica, arial, sans-serif;
+	font-size: 23px;
+	line-height: 31px;
+}
+
+.enter-email {
+	border: none;
+	padding: 4% 0% 4.7% 4%;
+	width: 60%;
+	background: red;
+	margin-right: 2%;
+}
+
+.enter-email::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #999;
+  opacity: 1; /* Firefox */
+}
+
+.enter-email:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #999;
+}
+
+.enter-email::-ms-input-placeholder { /* Microsoft Edge */
+  color: #999;
+}
+
+.enter-email:focus {
+	outline: none;
+}
+
+.submit-button {
+    background: #FF7676; 
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 40px;
+    margin: auto; 
+    color: #fff;
+    padding: 6px 30px 10px 30px;
+    transition: ease-in-out .2s;
+
+}
+
+.submit-button:hover {
+	transition: ease-in-out .2s;
+	background: #EC5757;
+
+}
+
+.submit-button:focus {
+	outline: none;
+	background: #EC5757;
+	transition: ease-in-out .2s;
+}
+
 
 /* text styles */
 
@@ -181,6 +248,12 @@ ol > li {
 	margin-left: 20px;
 }
 
+.condensed-list li {
+	background: none;
+	padding: 0px;
+	margin: 0px;
+}
+
 a {
 	color: #565B4E;
 	text-decoration: underline;
@@ -197,16 +270,43 @@ a:hover {
 /* responsive styles */
 @media only screen and (max-width: 800px) {
   body {
-    font-size: 18px;
-    line-height: 27px;
 }
 
+h2 {
+	font-size: 20px;
+    line-height: 130%;
+}
+
+
+p, li, ol, ul, h1 {
+	font-size: 17px;
+    line-height: 150%;
+    margin-bottom: 3%;
+}
 
 .text-section {
 	display: block;
 	padding: 3%;
+	border: none;
+	margin-bottom: 5%;
+}
 
-  }
+.logo {
+	margin: 6% auto 0 auto;
+	width: 75px;
+}
+
+.name {
+	margin-bottom: 4%;
+}
+
+.price-box {
+	font-size: 17px;
+}
+
+.price-box h3 span {
+	font-size: 30px;
+}
 
 .top-photos-container {
 	display: block;
