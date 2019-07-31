@@ -134,13 +134,13 @@ iframe {
 
 @font-face {
   font-family: 'sohne-bold';
-  src: url('../fonts/SöhneWeb-Kräftig.woff2') format('woff2');
+  src: url('/fonts/SöhneWeb-Kräftig.woff2') format('woff2');
   unicode-range: U+0020-007F; /* The bare minimum for the English Language */
 }
 
 @font-face {
   font-family: 'sohne-book';
-  src: url('../fonts/SöhneWeb-Mager.woff2') format('woff2');
+  src: url('/fonts/SöhneWeb-Mager.woff2') format('woff2');
   unicode-range: U+0020-007F; /* The bare minimum for the English Language */
 }
 
