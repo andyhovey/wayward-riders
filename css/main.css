@@ -57,6 +57,11 @@ img {
 	grid-column-start: 2;
 }
 
+.logo {
+	margin: 1.5% auto;
+	width: 98px;
+}
+
 
 /* responsive styles */
 @media only screen and (max-width: 900px) {
