@@ -14,10 +14,13 @@ img {
 	max-width: 100%;
 }
 
+.hpot {
+  	display: none;
+}
+
 .top-photos-container {
 	display: grid; 
 	max-width: 1200px;
-	background: pink;
 	margin: 0 auto;
 	line-height: 0; /*stops padding around photos*/
 	align-items: start;
