@@ -156,6 +156,7 @@ iframe {
 	width: 60%;
 	margin-right: 2%;
 	color: #5A644B;
+	align-content: end;
 }
 
 .enter-email::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -184,7 +185,6 @@ iframe {
     color: #fff;
     padding: 1.5% 5% 2.3% 5%;
     transition: ease-in-out .2s;
-
 }
 
 .submit-button:hover {
